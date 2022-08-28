@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website</title>
+    <link rel ="stylesheet"type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    .imagesection {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <div class="imagesection">
+                <img src="./img1.jpg" width="100%" height="100%"/>
+            </div>
+        </div>
+        <ul>
+             <li><a href="#HOME">Home</a></li>
+            <li><a href="#ABOUT">service</a></li>
+            <li><a href="#OURCLIENT">About</a></li>
+            <li><a href="#CONTACTUS">Contact Us</a></li>
+        </ul>
+    </nav>  
+    <div class="hero">
+        
+        <div class="headofsite" id="HOME">
+            <h1> welcome to my website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi temporibus libero facilis reiciendis. Vero excepturi aliquid ipsa nostrum dolorum in culpa repellendus hic reprehenderit 
+            </p>
+            <button class="btn">
+                Order Now
+            </button>
+        
+        </div>
+    </div>
+    <!-- our service -->
+    <div class="serive" id="ABOUT">
+    <h1 class="heading"> Our service</h1>
+    <div id="ourservice">
+        <div class="div1"> <img src="img5.png" alt="pizza" width="100%" height="100%" class="image2"><p class="topics">Food Ordering</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, saepe quaerat voluptatum sapiente accusantium facere vero minima commodi. Fugit sequi repellendus doloribus vel aut? Architecto fugiat rem excepturi at ipsam?</p></div>
+        <div class="div1"><img src="img4.png" alt="Catering" width="100%" height="100%" class="image2"><p class="topics">Catering</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga neque natus perspiciatis laborum reprehenderit provident blanditiis laudantium adipisci nihil! Asperiores earum possimus libero molestiae enim unde recusandae inventore officia accusantium.</p></div>
+        <div class="div1"><img src="img3.png" alt="deliveryboy" width="100%" height="100%"class="image2"><p class="topics">Bulk Ordering</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis facere excepturi, quas harum expedita optio fugiat vitae recusandae, qui quasi culpa repellat temporibus tenetur consequatur earum et perferendis necessitatibus est.</p></div>
+    </div>
+</div>
+    <!-- Our client -->
+    <div class="ourclient" id="OURCLIENT">
+        <h2><b>Our Clients</b></h2>
+        <div class="photos">
+            <div>
+                <ul>
+                    <li>
+                        <img src="apple logo.png" alt="apple"  >
+                    </li>
+                    <li>
+                        <img src="microsoft.png" alt="microsoft">
+                    </li>
+                    <li>
+                        <img src="skype1.png" alt="skype" >
+                    </li>
+                    <li>
+                        <img src="hp1.png" alt="hp" >
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- Contact Us -->
+    <div class="contact" id="CONTACTUS">
+        <h2><b>Contact Us</b> </h2>
+        <div class="form_1">
+        <div class="form" >
+            <label for="first name"> First Name</label>
+            <br/>
+            <input type="text" id="firstname" placeholder="Enter your firstname" name="Firstname"
+            >
+        
+
+        </div>
+        <div class="form " >
+            <label for="last name"> last Name</label>
+            <br/>
+            <input type="text" id="lastname" placeholder="Enter your lasttname"  name="lastname">
+        </div>
+        <div class="form ">
+            <label for="email"> email</label>
+            <br/>
+            <input type="email" id="email" placeholder="Enter your email"  name="email">
+        </div>
+        <div class="form " >
+            <label for="massage"> massage</label>
+            <br/>
+            <textarea id="massage" name="massage"  placeholder="Enter your massage here"cols="30" rows="10"></textarea>
+        </div>
+        <div class="form " >
+        <button type="submit" class="submit">Submit</button>
+    </div>
+
+    </div>
+    </div>
+
+    
+
+</body>
+</html>

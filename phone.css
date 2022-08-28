@@ -1,0 +1,47 @@
+body{
+    /* background-color: blue; */
+}
+/* nevigation */
+.navbar{
+    /* overflow: hidden; */
+    flex-direction: column;
+}
+  
+
+
+
+/* home section */
+.headofsite{
+
+}
+/* servive section */
+#ourservice .div1{
+    margin: auto;
+      width: 100%;
+      max-width: 300px;
+      margin-bottom:10px;
+    
+}
+
+#ourservice{
+    flex-direction: column;
+
+}
+/* client section */
+/* .ourclient{
+    overflow: hidden;
+} */
+/* .photos{
+    overflow: hidden;
+
+} */
+.photos div ul{
+  overflow-x: scroll;
+  width: 100px; 
+  white-space: no-wrap;
+}
+
+
+
+
+/* contact section */

@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+.hero{
+    margin-top: -75px;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+    background-image: url('food1.jpg');
+    background-position: bottom;
+    background-size:cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 3%;
+    padding-right: 2%; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    opacity: 1;
+    position: sticky;
+    /* position: -webkit-sticky; */
+    top: 0;
+   
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+nav ul li a:hover{
+   background-color: white;
+   color: black;
+   border-radius: 8px;
+   padding: 3px 6px;
+   transform: scale(1);
+}
+
+
+
+.headofsite {
+    margin: 30px 50px;
+    color: white;
+    text-align: center;
+}
+
+.headofsite h1 {
+    font-size: 28px;
+}
+.headofsite p {
+    font-size: 14px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.headofsite button {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    padding: 4px 10px;
+    margin-top:9px ;
+    cursor: pointer;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+} 
+#ourservice{
+    display: flex;
+
+
+}
+.heading{
+    margin: 35px;
+    text-align: center;
+}
+.topics{
+    font-size: 21px;
+}
+.image2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 239, 244) ;
+}
+.div1{
+    border: 3px solid red;
+    border-radius: 7px;
+    margin: 10px 20px;
+    text-align: center;
+    background-color: rgb(250, 239, 244);
+    height: 300px;
+    padding: 20px;
+    
+}
+.ourclient{
+ background-image: url('background2.webp');
+ /* background: rgba(0, 0, 0, 0.2); */
+   
+
+  text-align: center;
+  padding: 30px;
+  margin-top: 15px;
+  height: 300px;
+}
+.ourclient h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: rgb(209, 62, 9);
+}
+.photos{
+    width: 100%;
+    height: 50px;
+    padding-top: 0px;
+
+ 
+}
+.photos div ul {
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+}
+.photos div ul li {
+    text-decoration: none;
+    align-items: center;
+    height: 60px;
+    
+}
+.photos div ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    background-image: url('background5.jpg');
+    background-size: cover;
+    height: auto;
+    /* height: 700px; */
+   background-position: bottom;
+   margin: 20px 0px;
+}
+.contact h2{
+    text-align:center;
+    font-size: 30px;
+    color: rgb(251, 248, 248);
+    padding-top: 10px;
+}
+.form{
+   padding: 10px;
+
+}
+.form label{
+    color: rgb(177, 167, 167);
+
+}
+.form input{
+    width: 100%;
+    /* max-width: 500px; */
+    border-radius: 5px;
+    padding: 6px;
+    /* border: 1px solid transparent; */
+    border: none;
+
+}
+.form textarea{
+    width: 100%;
+    /* max-width: 500px;  */
+    border-radius: 5px;
+    padding: 6px;
+}
+.form_1 button{
+    border-radius: 5px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.form_1{
+text-align: left;
+margin:auto;
+/* width: fit-content; */
+/* width: auto; */
+ width: 100%;
+max-width: 500px;
+
+
+}
+@media only screen and (max-width: 700px){
+
+
+}
+
+
